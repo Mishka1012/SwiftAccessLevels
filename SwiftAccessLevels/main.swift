@@ -8,8 +8,10 @@
 
 import Foundation
 
-let aClass = AClass()
+private let aClass = AClass()
 
 aClass.methodA()
+aClass.methodB()
 
-
+private let anotherClassInTheSameFile = AnotherClassInTheSameFile()
+private let anotherClassInAnotherFile = AnotherClassInAnotherFile()
